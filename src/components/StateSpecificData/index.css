@@ -1,0 +1,276 @@
+.state-specific-container {
+  background: #161625;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.state-name {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  /* Light / light-blue / 500 */
+
+  color: #0ea5e9;
+  background: #0284c729;
+  border-radius: 32px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+
+.heading {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.right-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.last-update {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 300 */
+
+  color: #cbd5e1;
+}
+
+.tested-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+
+.tested-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  text-align: right;
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 142px;
+  width: 979px;
+  margin-left: 230px;
+  border-radius: 0px;
+  list-style-type: none;
+}
+
+.confirmed-cases {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.confirmed-cases-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ff073a;
+}
+
+.confirmed-image {
+  height: 37.99974822998047px;
+  width: 38px;
+  left: 0px;
+  top: 0.0009765625px;
+  border-radius: 0px;
+}
+
+.confirmed-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #ff073a;
+}
+
+.active-cases-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #007bff;
+}
+
+.active-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #007bff;
+}
+
+.active-image {
+  height: 7.125395774841309px;
+  width: 10.290807723999023px;
+  background: #007bff;
+}
+
+.recovered-cases-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #28a745;
+}
+
+.recovered-image {
+  height: 32.48313522338867px;
+  width: 35.21348190307617px;
+  left: 1.41015625px;
+  top: 2.77880859375px;
+  border-radius: 0px;
+  background: #28a745;
+}
+
+.recovered-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #28a745;
+}
+
+.deceased-cases-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #6c757d;
+}
+
+.deceased-image {
+  height: 38.00022888183594px;
+  width: 18.677734375px;
+  background: #6c757d;
+}
+
+.deceased-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #6c757d;
+}
+
+.top-districts-container {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.top-districts-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  color: #ff073a;
+}
+
+.confirm-tab-background {
+  background: #331427;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+}
+
+.active-tab-background {
+  background: #132240;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+}
+
+.recovered-tab-background {
+  background: #182829;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+}
+
+.deceased-tab-background {
+  background: #212230;
+  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+}

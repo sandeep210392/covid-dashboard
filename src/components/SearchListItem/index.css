@@ -1,0 +1,84 @@
+.search-list-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 16px;
+  list-style-type: none;
+  height: 64px;
+  width: 824px;
+  left: 308px;
+  top: 284px;
+  border-radius: 0px;
+  margin-right: 24px;
+  background: #1f1f30;
+  /* Light / blue-gray / 400 */
+
+  border: 1px solid #94a3b8;
+}
+
+.code-item {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 76px;
+  left: 1032px;
+  top: 236px;
+  border-radius: 4px;
+  padding: 4px, 6px, 4px, 6px;
+  background: rgba(28, 212, 212, 0.16);
+  border-radius: 4px;
+}
+
+.state-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+
+.state-code {
+  margin-left: 20px;
+
+  /* Text Font / S1 Subtitle */
+
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / yellow / 400 */
+
+  color: #facc15;
+
+  /* Inside auto layout */
+
+  background: rgba(28, 212, 212, 0.16);
+  border-radius: 4px;
+}
+
+.chevron-icon {
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  top: 2px;
+  border-radius: 0px;
+  color: #facc15;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+}

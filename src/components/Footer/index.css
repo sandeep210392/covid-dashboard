@@ -1,0 +1,53 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-header {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 50 */
+
+  color: #f8fafc;
+}
+
+.footer-header2 {
+  color: #007bff;
+}
+
+.footer-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+
+.social-icons {
+  color: #cbd5e1;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

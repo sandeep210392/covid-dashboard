@@ -1,0 +1,79 @@
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* Light / blue-gray / 100 */
+
+  color: #f1f5f9;
+  padding-left: 20px;
+  word-wrap: break-word;
+  width: 200px;
+}
+
+.confirmed {
+  padding-left: 250px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  color: #ff073a;
+  width: 200px;
+}
+
+.active {
+  padding-left: 250px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  width: 150px;
+  color: #007bff;
+}
+
+.recovered {
+  padding-left: 190px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  color: #28a745;
+  width: 150px;
+}
+
+.deceased {
+  padding-left: 210px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #6c757d;
+  width: 200px;
+}
+
+.population {
+  padding-left: 210px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #94a3b8;
+  width: 200px;
+}
+
+.row-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
